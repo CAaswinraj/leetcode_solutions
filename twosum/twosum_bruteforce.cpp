@@ -1,5 +1,7 @@
 // brute force O(n^2)
 // compute sum of all possible pairs and check if any are equal to target and return their indices if equal
+
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
