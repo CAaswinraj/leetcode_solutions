@@ -3,6 +3,14 @@
 //hash elements in J
 // check if elements in S match them
 //O(S + J)
+
+#include<iostream>
+#include<string>
+#include<vector>
+#include<map>
+#include<unordered_map>
+#include<stdio.h>
+using namespace std;
 class Solution 
 {
 
@@ -22,3 +30,14 @@ class Solution
          return out;
     }
 };
+
+int main()
+{
+    Solution A;
+    string J,S;
+    getline(cin,J);
+    getline(cin,S);
+    auto res = A.numJewelsInStones(J,S);
+    cout<<res;
+    return 0;
+}
